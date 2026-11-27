@@ -86,11 +86,8 @@ hr {
 }
 
 .body {
-    border-left: 2px solid #5E5CE6;
-    border-right: 2px solid #5E5CE6;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    padding: 3rem;
+    
+    
 }
 
 .body h1,h2,strong {
@@ -107,7 +104,7 @@ hr {
 }
 
 #tentang img {
-    width: 35%;
+    width: 25%;
     height: 50%;
 }
 
@@ -131,6 +128,10 @@ hr {
 #spinoff {
     display: block;
     text-align: center;
+}
+
+#ekologi {
+    margin-bottom: 1rem;
 }
 
 #ekologi ul {
@@ -178,7 +179,8 @@ hr {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .monIkonik {
