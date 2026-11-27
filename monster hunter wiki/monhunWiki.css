@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0B0E14;
+    color: #E2E8F0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+
+img,
+video {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    scroll-padding-top: 5rem;
+}
+
+.banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+.header img {
+    width: 15%;
+    height: auto;
+}
+
+.headerLogo {
+    background-color: #151B26;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+nav {
+    position: sticky;
+    top: -4.5rem;
+    z-index: 100;
+    background-color: #151B26;
+    border-bottom: 2px solid #4B5BFF;
+
+    transition: 0.3s;
+    
+    background-color: #151B26;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav:hover {
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E2E8F0;
+    padding: 0.5rem;
+
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+nav a:hover {
+    border-bottom-color: #2997FF;
+    color: #2997FF;
+}
+
+hr {
+    border: none;
+}
+
+.body {
+    border-left: 2px solid #5E5CE6;
+    border-right: 2px solid #5E5CE6;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 3rem;
+}
+
+.body h1,h2,strong {
+    display: block;
+    text-align: center;
+    color: #2997FF;
+}
+
+#tentang {
+    display: flex;
+    margin: 2rem;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+#tentang img {
+    width: 35%;
+    height: 50%;
+}
+
+#seri p {
+    display: block;
+    text-align: center;
+}
+
+#seri tr,th,td {
+    border: 2px solid #5E5CE6;
+}
+
+#seri table {
+    margin: auto;
+}
+
+#seri li {
+    list-style: none;
+}
+
+#spinoff {
+    display: block;
+    text-align: center;
+}
+
+#ekologi ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+    #ekologi ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+#ekologi h2 {
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+}
+
+#ekologi p{
+    margin-bottom: 1rem;
+    display: block;
+    text-align: center;
+    
+}
+
+#ekologi li {
+    border: 2px solid #5E5CE6;
+    padding: 1rem;
+    display: block;
+    text-align: justify;
+}
+
+#other img {
+    width: 25rem;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.ikonikContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.monIkonik {
+    width: 50%;
+    height: 27rem;
+    border: 2px solid #5E5CE6;
+    padding: 1rem;
+}
+
+.soundIkonik {
+    margin: auto;
+    width: 50%;
+    height: 27rem;
+    border: 2px solid #5E5CE6;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+    accent-color: #4B5BFF;
+}
+
+.footer {
+    background-color: #151B26;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+.footer p {
+    border-bottom:2px solid #4B5BFF;
+}
